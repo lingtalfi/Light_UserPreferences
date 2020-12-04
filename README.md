@@ -73,6 +73,10 @@ $plugin_installer.methods_collection:
 History Log
 =============
 
+- 1.0.1 -- 2020-12-04
+
+    - Add lpi-deps.byml file
+
 - 1.0.0 -- 2020-08-13
 
     - initial commit

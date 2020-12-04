@@ -1,0 +1,7 @@
+1.0.0: 
+    - Ling:Light_UserManager:1.5.3
+    - Ling:Light_User:1.7.0
+    - Ling:SimplePdoWrapper:1.30.14
+    - Ling:Light:0.69.16
+    - Ling:Light_Database:1.14.9
+    - Ling:Light_LingStandardService:1.6.1
