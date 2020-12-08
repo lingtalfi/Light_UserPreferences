@@ -4,7 +4,7 @@
 
 The LightUserPreferencesBaseApi class
 ================
-2020-07-31 --> 2020-12-04
+2020-07-31 --> 2020-12-08
 
 
 
