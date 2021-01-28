@@ -43,6 +43,9 @@ class <span class="pl-k">LightUserPreferencesPluginInstaller</span> extends [Lig
     - protected LightBasePluginInstaller::message(string $msg, ?string $type = null) : void
     - protected LightBasePluginInstaller::synchronizeDatabase() : void
     - protected LightBasePluginInstaller::extractPlanetDotName() : void
+    - protected LightBasePluginInstaller::removeLightStandardPermissions() : void
+    - protected LightBasePluginInstaller::dropTables(array $tables) : void
+    - protected LightBasePluginInstaller::hasTable(string $table) : bool
 
 }
 
@@ -67,6 +70,9 @@ Methods
 - LightBasePluginInstaller::message &ndash; Writes a message to the channel of the plugin installer planet.
 - LightBasePluginInstaller::synchronizeDatabase &ndash; Synchronizes the database with the create file (if any) of this planet.
 - LightBasePluginInstaller::extractPlanetDotName &ndash; Returns an array containing the galaxy name and the planet name of the current instance.
+- LightBasePluginInstaller::removeLightStandardPermissions &ndash; Removes the [light standard permissions](https://github.com/lingtalfi/TheBar/blob/master/discussions/light-standard-permissions.md) for this plugin.
+- LightBasePluginInstaller::dropTables &ndash; Drop the given tables, if they exist.
+- LightBasePluginInstaller::hasTable &ndash; Returns whether the given table exists in the database.
 
 
 

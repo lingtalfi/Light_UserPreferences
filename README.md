@@ -64,6 +64,10 @@ user_preferences:
 History Log
 =============
 
+- 1.0.5 -- 2021-01-28
+
+    - adapt api to work with latest Light_PluginInstaller
+
 - 1.0.4 -- 2021-01-28
 
     - update readme, the service part
