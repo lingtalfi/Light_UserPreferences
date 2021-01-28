@@ -53,16 +53,7 @@ user_preferences:
         
         setOptions: 
             options: []
-        
-    
-
-$plugin_installer.methods_collection: 
-    - 
-        method: registerPlugin
-        args: 
-            plugin: Light_UserPreferences
-            installer: @service(user_preferences)
-        
+                
     
 
 
@@ -72,6 +63,10 @@ $plugin_installer.methods_collection:
 
 History Log
 =============
+
+- 1.0.4 -- 2021-01-28
+
+    - update readme, the service part
 
 - 1.0.3 -- 2021-01-28
 
