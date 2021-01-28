@@ -4,7 +4,7 @@
 
 The LightUserPreferencesException class
 ================
-2020-07-31 --> 2020-12-08
+2020-07-31 --> 2021-01-28
 
 
 
@@ -54,4 +54,4 @@ See the source code of [Ling\Light_UserPreferences\Exception\LightUserPreference
 
 SeeAlso
 ==============
-Previous class: [LightUserPreferencesApiFactory](https://github.com/lingtalfi/Light_UserPreferences/blob/master/doc/api/Ling/Light_UserPreferences/Api/Generated/LightUserPreferencesApiFactory.md)<br>Next class: [LightUserPreferencesService](https://github.com/lingtalfi/Light_UserPreferences/blob/master/doc/api/Ling/Light_UserPreferences/Service/LightUserPreferencesService.md)<br>
+Previous class: [LightUserPreferencesApiFactory](https://github.com/lingtalfi/Light_UserPreferences/blob/master/doc/api/Ling/Light_UserPreferences/Api/Generated/LightUserPreferencesApiFactory.md)<br>Next class: [LightUserPreferencesPluginInstaller](https://github.com/lingtalfi/Light_UserPreferences/blob/master/doc/api/Ling/Light_UserPreferences/Light_PluginInstaller/LightUserPreferencesPluginInstaller.md)<br>

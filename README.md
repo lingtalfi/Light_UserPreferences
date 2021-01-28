@@ -1,6 +1,6 @@
 Light_UserPreferences
 ===========
-2020-08-13
+2020-08-13 -> 2021-01-28
 
 
 
@@ -72,6 +72,10 @@ $plugin_installer.methods_collection:
 
 History Log
 =============
+
+- 1.0.3 -- 2021-01-28
+
+    - adapt api to work with new Light_PluginInstaller
 
 - 1.0.2 -- 2020-12-08
 

@@ -1,6 +1,6 @@
 Ling/Light_UserPreferences
 ================
-2020-07-31 --> 2020-12-08
+2020-07-31 --> 2021-01-28
 
 
 
@@ -107,16 +107,20 @@ Table of contents
     - [LightUserPreferencesApiFactory::setPdoWrapper](https://github.com/lingtalfi/Light_UserPreferences/blob/master/doc/api/Ling/Light_UserPreferences/Api/Generated/LightUserPreferencesApiFactory/setPdoWrapper.md) &ndash; Sets the pdoWrapper.
     - [LightUserPreferencesApiFactory::setContainer](https://github.com/lingtalfi/Light_UserPreferences/blob/master/doc/api/Ling/Light_UserPreferences/Api/Generated/LightUserPreferencesApiFactory/setContainer.md) &ndash; Sets the container.
 - [LightUserPreferencesException](https://github.com/lingtalfi/Light_UserPreferences/blob/master/doc/api/Ling/Light_UserPreferences/Exception/LightUserPreferencesException.md) &ndash; The LightUserPreferencesException class.
+- [LightUserPreferencesPluginInstaller](https://github.com/lingtalfi/Light_UserPreferences/blob/master/doc/api/Ling/Light_UserPreferences/Light_PluginInstaller/LightUserPreferencesPluginInstaller.md) &ndash; The LightUserPreferencesPluginInstaller class.
+    - [LightUserPreferencesPluginInstaller::getDependencies](https://github.com/lingtalfi/Light_UserPreferences/blob/master/doc/api/Ling/Light_UserPreferences/Light_PluginInstaller/LightUserPreferencesPluginInstaller/getDependencies.md) &ndash; Returns the array of dependencies.
+    - [LightUserPreferencesPluginInstaller::getTableScope](https://github.com/lingtalfi/Light_UserPreferences/blob/master/doc/api/Ling/Light_UserPreferences/Light_PluginInstaller/LightUserPreferencesPluginInstaller/getTableScope.md) &ndash; Returns the [table scope](https://github.com/lingtalfi/TheBar/blob/master/discussions/table-scope.md) for this planet.
+    - LightBasePluginInstaller::__construct &ndash; Builds the LightBasePluginInstaller instance.
+    - LightBasePluginInstaller::setContainer &ndash; Sets the container.
+    - LightBasePluginInstaller::install &ndash; Installs the plugin in the light application.
+    - LightBasePluginInstaller::isInstalled &ndash; Returns whether the core install phase of the plugin is fully completed.
+    - LightBasePluginInstaller::uninstall &ndash; Uninstalls the plugin.
 - [LightUserPreferencesService](https://github.com/lingtalfi/Light_UserPreferences/blob/master/doc/api/Ling/Light_UserPreferences/Service/LightUserPreferencesService.md) &ndash; The LightUserPreferencesService class.
     - [LightUserPreferencesService::__construct](https://github.com/lingtalfi/Light_UserPreferences/blob/master/doc/api/Ling/Light_UserPreferences/Service/LightUserPreferencesService/__construct.md) &ndash; Builds the LightUserPreferencesService instance.
     - [LightUserPreferencesService::getFactory](https://github.com/lingtalfi/Light_UserPreferences/blob/master/doc/api/Ling/Light_UserPreferences/Service/LightUserPreferencesService/getFactory.md) &ndash; Returns the factory for this plugin's api.
-    - LightLingStandardService01::setContainer &ndash; Sets the container.
-    - LightLingStandardService01::setOptions &ndash; Sets the options.
-    - LightLingStandardService01::install &ndash; Installs the plugin in the light application.
-    - LightLingStandardService01::isInstalled &ndash; Returns whether the core install phase of the plugin is fully completed.
-    - LightLingStandardService01::uninstall &ndash; Uninstalls the plugin.
-    - LightLingStandardService01::getDependencies &ndash; Returns the array of dependencies.
-    - LightLingStandardService01::logDebug &ndash; Sends a message to the debug log, only if the useDebug option is set to true.
+    - LightLingStandardService02::setContainer &ndash; Sets the container.
+    - LightLingStandardService02::setOptions &ndash; Sets the options.
+    - LightLingStandardService02::logDebug &ndash; Sends a message to the debug log, only if the useDebug option is set to true.
 
 
 Dependencies
@@ -126,6 +130,7 @@ Dependencies
 - [SimplePdoWrapper](https://github.com/lingtalfi/SimplePdoWrapper)
 - [Light](https://github.com/lingtalfi/Light)
 - [Light_Database](https://github.com/lingtalfi/Light_Database)
+- [Light_PluginInstaller](https://github.com/lingtalfi/Light_PluginInstaller)
 - [Light_LingStandardService](https://github.com/lingtalfi/Light_LingStandardService)
 
 
