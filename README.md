@@ -1,6 +1,6 @@
 Light_UserPreferences
 ===========
-2020-08-13 -> 2021-01-28
+2020-08-13 -> 2021-02-11
 
 
 
@@ -64,6 +64,10 @@ user_preferences:
 History Log
 =============
 
+- 1.0.6 -- 2021-02-11
+
+  - update api, plugin installer now extends LightUserDatabaseBasePluginInstaller
+  
 - 1.0.5 -- 2021-01-28
 
     - adapt api to work with latest Light_PluginInstaller

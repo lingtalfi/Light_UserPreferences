@@ -4,13 +4,14 @@
 namespace Ling\Light_UserPreferences\Light_PluginInstaller;
 
 
-use Ling\Light_PluginInstaller\PluginInstaller\LightBasePluginInstaller;
+
+use Ling\Light_UserDatabase\Light_PluginInstaller\LightUserDatabaseBasePluginInstaller;
 
 
 /**
  * The LightUserPreferencesPluginInstaller class.
  */
-class LightUserPreferencesPluginInstaller extends LightBasePluginInstaller
+class LightUserPreferencesPluginInstaller extends LightUserDatabaseBasePluginInstaller
 {
 
 

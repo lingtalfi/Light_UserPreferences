@@ -4,7 +4,7 @@
 
 The LightUserPreferencesService class
 ================
-2020-07-31 --> 2021-01-28
+2020-07-31 --> 2021-02-11
 
 
 
@@ -40,7 +40,6 @@ class <span class="pl-k">LightUserPreferencesService</span> extends [LightLingSt
     - public LightLingStandardService02::setOptions(array $options) : void
     - public LightLingStandardService02::logDebug($msg) : void
     - protected LightLingStandardService02::error(string $msg) : void
-    - private LightLingStandardService02::prepareNames() : void
 
 }
 
@@ -81,7 +80,6 @@ Methods
 - LightLingStandardService02::setOptions &ndash; Sets the options.
 - LightLingStandardService02::logDebug &ndash; Sends a message to the debug log, only if the useDebug option is set to true.
 - LightLingStandardService02::error &ndash; Throws an exception.
-- LightLingStandardService02::prepareNames &ndash; Prepare names used by this class.
 
 
 

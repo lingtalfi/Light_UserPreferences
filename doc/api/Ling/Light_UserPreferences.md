@@ -1,6 +1,6 @@
 Ling/Light_UserPreferences
 ================
-2020-07-31 --> 2021-01-28
+2020-07-31 --> 2021-02-11
 
 
 
@@ -110,11 +110,11 @@ Table of contents
 - [LightUserPreferencesPluginInstaller](https://github.com/lingtalfi/Light_UserPreferences/blob/master/doc/api/Ling/Light_UserPreferences/Light_PluginInstaller/LightUserPreferencesPluginInstaller.md) &ndash; The LightUserPreferencesPluginInstaller class.
     - [LightUserPreferencesPluginInstaller::getDependencies](https://github.com/lingtalfi/Light_UserPreferences/blob/master/doc/api/Ling/Light_UserPreferences/Light_PluginInstaller/LightUserPreferencesPluginInstaller/getDependencies.md) &ndash; Returns the array of dependencies.
     - [LightUserPreferencesPluginInstaller::getTableScope](https://github.com/lingtalfi/Light_UserPreferences/blob/master/doc/api/Ling/Light_UserPreferences/Light_PluginInstaller/LightUserPreferencesPluginInstaller/getTableScope.md) &ndash; Returns the [table scope](https://github.com/lingtalfi/TheBar/blob/master/discussions/table-scope.md) for this planet.
-    - LightBasePluginInstaller::__construct &ndash; Builds the LightBasePluginInstaller instance.
-    - LightBasePluginInstaller::setContainer &ndash; Sets the container.
-    - LightBasePluginInstaller::install &ndash; Installs the plugin in the light application.
-    - LightBasePluginInstaller::isInstalled &ndash; Returns whether the core install phase of the plugin is fully completed.
-    - LightBasePluginInstaller::uninstall &ndash; Uninstalls the plugin.
+    - LightUserDatabaseBasePluginInstaller::__construct &ndash; Builds the LightBasePluginInstaller instance.
+    - LightUserDatabaseBasePluginInstaller::setContainer &ndash; Sets the container.
+    - LightUserDatabaseBasePluginInstaller::install &ndash; Installs the plugin in the light application.
+    - LightUserDatabaseBasePluginInstaller::isInstalled &ndash; Returns whether the core install phase of the plugin is fully completed.
+    - LightUserDatabaseBasePluginInstaller::uninstall &ndash; Uninstalls the plugin.
 - [LightUserPreferencesService](https://github.com/lingtalfi/Light_UserPreferences/blob/master/doc/api/Ling/Light_UserPreferences/Service/LightUserPreferencesService.md) &ndash; The LightUserPreferencesService class.
     - [LightUserPreferencesService::__construct](https://github.com/lingtalfi/Light_UserPreferences/blob/master/doc/api/Ling/Light_UserPreferences/Service/LightUserPreferencesService/__construct.md) &ndash; Builds the LightUserPreferencesService instance.
     - [LightUserPreferencesService::getFactory](https://github.com/lingtalfi/Light_UserPreferences/blob/master/doc/api/Ling/Light_UserPreferences/Service/LightUserPreferencesService/getFactory.md) &ndash; Returns the factory for this plugin's api.
@@ -130,7 +130,7 @@ Dependencies
 - [SimplePdoWrapper](https://github.com/lingtalfi/SimplePdoWrapper)
 - [Light](https://github.com/lingtalfi/Light)
 - [Light_Database](https://github.com/lingtalfi/Light_Database)
-- [Light_PluginInstaller](https://github.com/lingtalfi/Light_PluginInstaller)
+- [Light_UserDatabase](https://github.com/lingtalfi/Light_UserDatabase)
 - [Light_LingStandardService](https://github.com/lingtalfi/Light_LingStandardService)
 
 
