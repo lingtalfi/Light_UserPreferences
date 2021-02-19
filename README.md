@@ -64,6 +64,10 @@ user_preferences:
 History Log
 =============
 
+- 1.0.7 -- 2021-02-19
+
+    - upgrade dependencies
+
 - 1.0.6 -- 2021-02-11
 
   - update api, plugin installer now extends LightUserDatabaseBasePluginInstaller
