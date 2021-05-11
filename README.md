@@ -69,6 +69,10 @@ user_preferences:
 History Log
 =============
 
+- 1.0.10 -- 2021-05-11
+
+    - Update deps (by CommitWizard).
+
 - 1.0.9 -- 2021-03-15
 
     - update planet to adapt Ling.Light:0.70.0

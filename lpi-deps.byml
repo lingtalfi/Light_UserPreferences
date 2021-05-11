@@ -83,3 +83,12 @@
     - Ling:Light_UserDatabase:1.31.15+
     - Ling:Light_UserManager:1.5.7+
     - Ling:SimplePdoWrapper:1.30.17+
+
+1.0.10: 
+    - Ling:Light:0.70.4+
+    - Ling:Light_Database:1.14.24+
+    - Ling:Light_LingStandardService:1.6.12+
+    - Ling:Light_User:1.7.3+
+    - Ling:Light_UserDatabase:1.31.20+
+    - Ling:Light_UserManager:1.5.8+
+    - Ling:SimplePdoWrapper:1.30.17+
